@@ -1,8 +1,10 @@
+import CallCards from "./CallCards";
 import DataTable from "./DataTable";
 
 const DashboardContent = () => {
   return (
     <main className="p-6 space-y-6">
+      <CallCards />
       <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {/* Example card */}
         <div className="bg-white shadow-md p-4 rounded-lg">

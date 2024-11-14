@@ -1,7 +1,12 @@
 import React from "react";
+import { CallCards } from "../components";
 
 const CallList = () => {
-  return <div>CallList</div>;
+  return (
+    <>
+      <CallCards />
+    </>
+  );
 };
 
 export default CallList;
